@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 import os
+
 def dist(x1,x2):
     return np.sqrt(sum((x2-x1)**2))
 
@@ -21,7 +22,7 @@ def knn(X,Y,query_point,k=5):
     return pred
 cap=cv2.VideoCapture(0)
 skip=0
-dataset_path='//Users/shivam_goyal/Desktop/ECE601/Sprint2/faceDataCollect/'
+dataset_path='//Users/shivam_goyal/Desktop/ECE601/Sprint3/faceDataCollect/'
 face_data=[] # X data
 labels=[]	# Y data
 class_id=0 # labels for the given file
@@ -67,6 +68,7 @@ while True:
 
 		# Display on the screen the name and the rectangle around it
 		pred_name=names[int(out)]
+		
 		cv2.putText(frame,pred_name,(x,y-10),cv2.FONT_HERSHEY_SIMPLEX,1,(0,255,255),2,cv2.LINE_AA)
 		cv2.rectangle(frame,(x,y),(x+w,y+h),(255,255,255),2)
 	cv2.imshow("Faces",frame)

@@ -4,8 +4,8 @@ cap=cv2.VideoCapture(0)
 skip=0
 face_data=[]
 face_cascade=cv2.CascadeClassifier('/Users/shivam_goyal/Documents/Python/Haarcascade/haarcascade_frontalface_alt.xml')
-dataset_path='/Users/shivam_goyal/Desktop/ECE601/Sprint2/faceDataCollect/'
-file_name=input("enter the name of the person: ")
+dataset_path='/Users/shivam_goyal/Desktop/ECE601/Sprint3/faceDataCollect/'
+file_name=input("Confirm the name of the person: ")
 while True:
 	ret,frame=cap.read()
 
