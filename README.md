@@ -1,4 +1,4 @@
-# IndustrialAutomationEC601 by Shivam Goyal (Boston University)
+# IndustrialAutomationEC601 by Shivam Goyal (Student at Boston University)
 
 -> This process currently only focuses on the efficiency of workers associated to the task.
 
