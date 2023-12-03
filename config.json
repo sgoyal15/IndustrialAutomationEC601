@@ -1,0 +1,28 @@
+{
+  "file_path": "/Users/shivam_goyal/Desktop/ECE601/Sprint3/",
+  "station_id": "st1",
+  "time_initial": 0,
+  "qrcode_file": "qrCode.py",
+  "fingerprint_file": "fingerprintSimulate.py",
+  "face_recog_file": "face_recognition.py",
+  "face_data_location": "faceDataCollect/",
+  "face_collect_file": "face_data_collect.py",
+  "timer_file": "timer.py",
+  "graph_file": "graph.py",
+  "temp_csv": "temp_data.csv",
+  "final_stats": "stats.py",
+  "workers": [
+    {
+      "name": "Shivam",
+      "shift_time": true
+    },
+    {
+      "name": "Rajesh",
+      "shift_time": false
+    },
+    {
+      "name": "Shlok",
+      "shift_time": true
+    }
+  ]
+}
