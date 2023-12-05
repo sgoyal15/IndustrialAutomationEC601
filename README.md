@@ -1,6 +1,6 @@
 # Industrial Automation for ECE601
 
-# Shivam Goyal
+Shivam Goyal
 email ID: sgoyal15@bu.edu
 
 
